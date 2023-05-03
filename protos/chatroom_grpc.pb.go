@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.22.3
-// source: chatroom.proto
+// source: protos/chatroom.proto
 
 package protos
 
@@ -175,5 +175,5 @@ var ChatRoom_ServiceDesc = grpc.ServiceDesc{
 			ClientStreams: true,
 		},
 	},
-	Metadata: "chatroom.proto",
+	Metadata: "protos/chatroom.proto",
 }
